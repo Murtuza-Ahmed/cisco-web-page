@@ -1,6 +1,10 @@
 .Headline {
     background-color: #bbb2b269;
-    padding: .50rem;
+    padding: .50rem 4rem;
+}
+
+.Headline ul li {
+    font-size: .80rem;
 }
 
 ul {
@@ -8,21 +12,47 @@ ul {
     padding: 0;
 }
 
-.Headline ul {
+.Container {
     display: flex;
-    justify-content: flex-end;
     align-items: center;
-    margin: 0 4rem 0 2rem;
+    justify-content: flex-end;
 }
 
-.Headline ul li:nth-child(1) {
+.Container .Contact ul {
+    display: flex;
+    align-items: center;
     margin: 0 2rem 0 0;
 }
 
-.Headline ul li {
-    font-size: .80rem;
+.Container .Contact ul li {
+    margin: 0 1rem;
 }
 
-.Languge {
+.Container .LoginIcon ul {
     display: flex;
+    align-items: center;
+    margin: 0 4rem 0 0;
+}
+
+.Container .Languge ul {
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width:768px) {
+    .Headline {
+        background: none;
+    }
+
+    .Container .Contact ul {
+        display: none;
+    }
+
+    .LoginIcon ul img:nth-child(1) {
+        display: none;
+    }
+
+    .Languge {
+        display: none;
+    }
 }
