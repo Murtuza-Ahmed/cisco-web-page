@@ -1,0 +1,44 @@
+.Navbar {
+    margin: 1rem 4rem;
+}
+
+.Container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Image {
+    margin-right: 2rem;
+}
+
+.Menu {
+    width: 100%;
+}
+
+.Menu ul {
+    display: flex;
+    align-items: center;
+}
+
+.Menu ul li {
+    margin: 0 2rem 0 0;
+}
+
+.RightMenu {
+    width: 100%;
+}
+
+.RightMenu ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.RightMenu ul li {
+    margin: 0 .5rem 0 0;
+}
+
+.RightMenu ul li:nth-child(1) {
+    margin-right: 2rem;
+}
