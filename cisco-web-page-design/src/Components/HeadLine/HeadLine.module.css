@@ -3,8 +3,13 @@
     padding: .50rem 4rem;
 }
 
+.Headline .Logo {
+    display: none;
+}
+
 .Headline ul li {
     font-size: .80rem;
+    font-weight: 700;
 }
 
 ul {
@@ -42,6 +47,15 @@ ul {
 @media only screen and (max-width:768px) {
     .Headline {
         background: none;
+        padding: 0 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .Headline .Logo {
+        display: inline-block;
+
     }
 
     .Container .Contact ul {
@@ -52,7 +66,17 @@ ul {
         display: none;
     }
 
+    .LoginIcon li {
+        margin: 0 2rem 0 0;
+    }
+
     .Languge {
         display: none;
     }
+
+    div hr {
+        margin-top: -15px;
+        box-shadow: 1px 1px 9px #473f3f71;
+    }
+
 }

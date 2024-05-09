@@ -42,3 +42,37 @@
 .RightMenu ul li:nth-child(1) {
     margin-right: 2rem;
 }
+
+@media only screen and (max-width:768px) {
+    .Image {
+        display: none;
+    }
+
+    .Container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2rem;
+    }
+
+    .Menu ul {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: -2rem;
+    }
+
+    .Menu ul li {
+        margin: 2rem 0 0 0;
+    }
+
+    .RightMenu ul img {
+        display: none;
+    }
+
+    .RightMenu ul li:nth-child(2) {
+        display: none;
+    }
+
+    .RightMenu {
+        display: flex;
+    }
+}
