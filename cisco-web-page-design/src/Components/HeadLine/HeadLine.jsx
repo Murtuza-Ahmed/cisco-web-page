@@ -23,17 +23,19 @@ const Headline = () => {
             <ul>
               <img src={Login_icon} alt="UserIcon" style={{ width: "20px" }} />
               <li>Log In</li>
-              <img
-                src={Serach_icon}
-                alt="Search-Icon"
-                style={{ width: "20px" }}
-              />
+              <div className={styles.SearchIcon}>
+                <img
+                  src={Serach_icon}
+                  alt="Search-Icon"
+                  style={{ width: "20px" }}
+                />
+              </div>
             </ul>
           </div>
           <div className={styles.Languge}>
             <ul>
               <img src={World_icon} alt="WorldIcon" style={{ width: "15px" }} />
-              <li>En US</li>
+              <li>EN US</li>
             </ul>
           </div>
         </div>

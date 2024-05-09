@@ -1,5 +1,5 @@
 .Headline {
-    background-color: #bbb2b269;
+    background-color: #f7f2f2f3;
     padding: .50rem 4rem;
 }
 
@@ -44,6 +44,10 @@ ul {
     align-items: center;
 }
 
+.SearchIcon {
+    display: none;
+}
+
 @media only screen and (max-width:768px) {
     .Headline {
         background: none;
@@ -78,5 +82,4 @@ ul {
         margin-top: -15px;
         box-shadow: 1px 1px 9px #473f3f71;
     }
-
 }
