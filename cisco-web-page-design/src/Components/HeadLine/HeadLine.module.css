@@ -1,0 +1,28 @@
+.Headline {
+    background-color: #bbb2b269;
+    padding: .50rem;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.Headline ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 4rem 0 2rem;
+}
+
+.Headline ul li:nth-child(1) {
+    margin: 0 2rem 0 0;
+}
+
+.Headline ul li {
+    font-size: .80rem;
+}
+
+.Languge {
+    display: flex;
+}

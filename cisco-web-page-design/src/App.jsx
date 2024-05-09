@@ -1,7 +1,12 @@
 import React from "react";
+import Headline from "./Components/HeadLine/HeadLine";
 
 const App = () => {
-  return <div></div>;
+  return (
+    <div>
+      <Headline />
+    </div>
+  );
 };
 
 export default App;
