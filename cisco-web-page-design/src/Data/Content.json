@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Downloads",
+        "imageSrc": "icon_downloads.svg"
+    },
+    {
+        "title": "Certification",
+        "imageSrc": "icon_certifications.svg"
+    },
+    {
+        "title": "Cisco Validate",
+        "imageSrc": "icon_design-guides.svg"
+    },
+    {
+        "title": "Traning",
+        "imageSrc": "icon_training.svg"
+    },
+    {
+        "title": "Community",
+        "imageSrc": "icon_community.svg"
+    },
+    {
+        "title": "Careers",
+        "imageSrc": "icon_careers.svg"
+    }
+]
