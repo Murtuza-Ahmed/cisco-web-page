@@ -1,0 +1,21 @@
+.SectionCards {
+    margin: 0 4rem;
+}
+
+.Cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.Cards .Title {
+    font-weight: normal;
+    color: #180909c7;
+}
+
+.Cards .Description {
+    line-height: 1.4rem;
+    color: #180909c7;
+}

@@ -3,6 +3,7 @@ import Headline from "./Components/HeadLine/HeadLine";
 import Navbar from "./Components/Navbar/Navbar";
 import Hero from "./Components/Hero/Hero";
 import Content from "./Components/Content/Content";
+import Section from "./Components/Section/Section";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <Content />
+      <Section />
     </div>
   );
 };

@@ -1,0 +1,19 @@
+ .Title {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-bottom: 4rem;
+ }
+
+ .Title h1 {
+     width: 800px;
+     text-align: center;
+     font-weight: 400;
+     font-style: normal;
+ }
+
+ .Products {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }

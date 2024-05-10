@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Secure the gaps in your identity environment",
+        "imageSrc": "secure.avif",
+        "description": "Identity is the new perimeter. Keep your environment safe from sophisticated attacks with Cisco Duo's new Continuous Identity Security.",
+        "source": "Explore Cisco Duo",
+        "breadcrum": "breadcrum_arrow.png"
+    },
+    {
+        "title": "Introducing Cisco AI Assistant in XDR",
+        "imageSrc": "introducing.avif",
+        "description": "AI-driven guidance and incident-specific next steps empower your security operations center to make critical decisions more quickly.",
+        "source": "Explore Cisco XDR",
+        "breadcrum": "breadcrum_arrow.png"
+    },
+    {
+        "title": "Consistent, automated cloud security",
+        "imageSrc": "consistent.avif",
+        "description": "See how we're simplifying security across clouds with Cisco Multicloud Defense. ",
+        "source": "Explore cloud security",
+        "breadcrum": "breadcrum_arrow.png"
+    }
+]
