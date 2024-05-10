@@ -1,8 +1,9 @@
 .Content {
     margin: 4rem 4rem;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    margin-top: 3rem;
 }
 
 .ContentData {
@@ -11,6 +12,7 @@
     align-items: center;
     justify-content: center;
     gap: 1rem;
+    margin: 0 2rem;
 }
 
 .ContentData .IconName {
