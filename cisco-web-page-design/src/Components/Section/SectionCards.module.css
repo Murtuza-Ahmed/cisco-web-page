@@ -10,6 +10,14 @@
     gap: 2rem;
 }
 
+.Container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 1rem;
+}
+
 .Cards .Title {
     font-weight: normal;
     color: #180909c7;
@@ -18,4 +26,18 @@
 .Cards .Description {
     line-height: 1.4rem;
     color: #180909c7;
+}
+
+.Link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Link a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #6929ff;
+    margin-right: 1.10rem;
 }
