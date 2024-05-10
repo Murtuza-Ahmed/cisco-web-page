@@ -9,7 +9,7 @@ const SectionCards = ({
     <div>
       <div className={styles.SectionCards}>
         <div className={styles.Cards}>
-          {<img src={getImageUrl(imageSrc)} style={{ width: "130%" }} />}
+          {<img src={getImageUrl(imageSrc)} style={{ width: "100%" }} />}
           <div className={styles.Container}>
             <h3 className={styles.Title}>{title}</h3>
             <p className={styles.Description}>{description}</p>

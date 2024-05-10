@@ -1,5 +1,5 @@
 .SectionCards {
-    margin: 0 4rem;
+    margin: 0 3rem;
 }
 
 .Cards {
@@ -8,6 +8,16 @@
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    border: 1px solid #CCC;
+    /* width: 300px; */
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(92, 78, 78, 0.384);
+}
+
+.Cards img {
+    /* width: 100%; */
+    height: auto;
 }
 
 .Container {
@@ -18,14 +28,20 @@
     gap: 1rem;
 }
 
+.Container {
+    padding: 20px;
+}
+
 .Cards .Title {
     font-weight: normal;
     color: #180909c7;
+    margin-top: 0;
 }
 
 .Cards .Description {
     line-height: 1.4rem;
     color: #180909c7;
+    margin-bottom: 20px;
 }
 
 .Link {
@@ -35,9 +51,15 @@
 }
 
 .Link a {
-    text-decoration: none;
+    /* text-decoration: none;
     font-size: 1rem;
     font-weight: 600;
     color: #6929ff;
-    margin-right: 1.10rem;
+    margin-right: 1.10rem; */
+    display: inline-block;
+    color: #007bff;
+    /* color: #fff; */
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 4px;
 }
