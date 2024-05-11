@@ -1,0 +1,61 @@
+.SectionA {
+    margin: 8rem 4rem;
+    display: flex;
+    gap: 5rem;
+}
+
+.ContentTitle {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem; */
+    width: 500px;
+}
+
+.ContainerContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    gap: 1rem;
+    width: 300px;
+}
+
+.ContainerContent h2 {
+    width: 330px;
+    font-style: normal;
+    font-size: 2rem;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+.ContainerContent p {
+    width: 500px;
+    line-height: 25px;
+    color: #686767;
+}
+
+.ContainerContent button {
+    padding: 1.40rem 3rem;
+    border: none;
+    background: none;
+    border-radius: 5rem;
+    border: 1px solid #4747fd;
+    color: #4747fd;
+    font-size: 1rem;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.Icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.Icon a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #4747fd;
+}
