@@ -7,6 +7,7 @@ import Section from "./Components/Section/Section";
 import SectionA from "./Components/SectionA/SectionA";
 import Introducing from "./Components/IntroducingCisco/Introducing";
 import InsideCisco from "./Components/InsideCisco/InsideCisco";
+import Footer from "./Components/Footer/Footer";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <SectionA />
       <Introducing />
       <InsideCisco />
+      <Footer />
     </div>
   );
 };

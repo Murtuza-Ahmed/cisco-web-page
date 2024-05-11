@@ -40,7 +40,6 @@ const Headline = () => {
           </div>
         </div>
       </div>
-      <hr />
     </div>
   );
 };

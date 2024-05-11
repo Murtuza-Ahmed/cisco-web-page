@@ -1,5 +1,5 @@
 .Headline {
-    background-color: #f7f2f2f3;
+    background-color: #f4f5f6;
     padding: .50rem 4rem;
 }
 
@@ -76,10 +76,5 @@ ul {
 
     .Languge {
         display: none;
-    }
-
-    div hr {
-        margin-top: -15px;
-        box-shadow: 1px 1px 9px #473f3f71;
     }
 }
