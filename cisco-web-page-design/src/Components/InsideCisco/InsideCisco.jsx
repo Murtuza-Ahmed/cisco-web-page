@@ -21,6 +21,8 @@ const InsideCisco = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className={styles.InsideCiscoCardsContainer}>
         {Inside_Cisco.map((item, i) => (
           <InsideCiscoCards key={i} items={item} />
         ))}

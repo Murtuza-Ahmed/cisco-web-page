@@ -1,0 +1,50 @@
+.InsideCiscoCards {
+    margin: 0 4rem;
+}
+
+.Cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    gap: 1.50rem;
+}
+
+.Cards .Heading h4 {
+    font-style: normal;
+}
+
+/* .Title {
+    width: 240px;
+} */
+
+.Title h5 {
+    font-size: 1.10rem;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.50rem;
+    letter-spacing: .1px;
+}
+
+.Content {
+    width: 300px;
+    font-size: 1rem;
+    color: #5f5959;
+    line-height: 1.50rem;
+    letter-spacing: .1px;
+}
+
+.Link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.Link a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #0060ad;
+    letter-spacing: .1px;
+}
