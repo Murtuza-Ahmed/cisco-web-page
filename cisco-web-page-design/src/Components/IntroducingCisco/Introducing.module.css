@@ -1,0 +1,40 @@
+.Introducing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.Content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.Content h3 {
+    font-size: 2rem;
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+
+.Content p {
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+.Icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.Icon a {
+    text-decoration: none;
+    color: #4747fd;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
