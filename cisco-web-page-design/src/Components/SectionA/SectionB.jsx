@@ -1,15 +1,15 @@
 import React from "react";
-import styles from "./SectionA.module.css";
+import styles from "./SectionB.module.css";
 import { getImageUrl } from "../../pages/utils";
-import SectionB from "./SectionB";
+import SectionC from "./SectionC";
 
-const SectionA = () => {
+const SectionB = () => {
   return (
     <div>
-      <div className={styles.SectionA}>
+      <div className={styles.SectionB}>
         <div className={styles.Image}>
           <img
-            src={getImageUrl("sectionA.avif")}
+            src={getImageUrl("sctionB.webp")}
             alt="Cisco Full-Stack_Imsage"
             style={{ width: "100%" }}
           />
@@ -17,24 +17,24 @@ const SectionA = () => {
         <div className={styles.Content}>
           <div className={styles.ContentTitle}>
             <div className={styles.ContainerContent}>
-              <h2>Better insights. Better experiences.</h2>
+              <h2>Get the 2024 Cisco Cybersecurity Readiness Index</h2>
               <p>
-                Cisco Full-Stack Observability (Cisco FSO) brings together data
-                from across your tech stack and your business. Use it to gain
-                insights and deliver optimal application experiences.
+                How ready are companies to tackle security risks in the modern
+                world? You can find out by checking out our latest research on
+                security readiness across five key pillars.
               </p>
-              <button>Explore Cisco FSO</button>
+              <button>Read the report</button>
               <div className={styles.Icon}>
-                <a href="#">Read customer story </a>
+                <a href="#">View trials and demos </a>
                 <img src={getImageUrl("breadcrum_arrow.png")} alt="" />
               </div>
             </div>
           </div>
         </div>
       </div>
-      <SectionB />
+      <SectionC />
     </div>
   );
 };
 
-export default SectionA;
+export default SectionB;

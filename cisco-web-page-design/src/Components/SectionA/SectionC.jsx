@@ -1,15 +1,14 @@
 import React from "react";
-import styles from "./SectionA.module.css";
+import styles from "./SectionC.module.css";
 import { getImageUrl } from "../../pages/utils";
-import SectionB from "./SectionB";
 
-const SectionA = () => {
+const SectionC = () => {
   return (
     <div>
-      <div className={styles.SectionA}>
+      <div className={styles.SectionC}>
         <div className={styles.Image}>
           <img
-            src={getImageUrl("sectionA.avif")}
+            src={getImageUrl("sectionC.avif")}
             alt="Cisco Full-Stack_Imsage"
             style={{ width: "100%" }}
           />
@@ -17,24 +16,23 @@ const SectionA = () => {
         <div className={styles.Content}>
           <div className={styles.ContentTitle}>
             <div className={styles.ContainerContent}>
-              <h2>Better insights. Better experiences.</h2>
+              <h2>Digitize your industrial operations </h2>
               <p>
-                Cisco Full-Stack Observability (Cisco FSO) brings together data
-                from across your tech stack and your business. Use it to gain
-                insights and deliver optimal application experiences.
+                Run more flexible, secure, and efficient operations with
+                market-leading industrial networking, purpose-built for
+                operational technology.
               </p>
-              <button>Explore Cisco FSO</button>
+              <button>See industrial lot</button>
               <div className={styles.Icon}>
-                <a href="#">Read customer story </a>
+                <a href="#">Explore offers </a>
                 <img src={getImageUrl("breadcrum_arrow.png")} alt="" />
               </div>
             </div>
           </div>
         </div>
       </div>
-      <SectionB />
     </div>
   );
 };
 
-export default SectionA;
+export default SectionC;
