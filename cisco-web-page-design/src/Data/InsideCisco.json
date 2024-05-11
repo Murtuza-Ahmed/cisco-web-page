@@ -1,0 +1,23 @@
+[
+    {
+        "heading": "News",
+        "title": "Cisco + Splunk: It's a new day for your data",
+        "description": "This is the start of something special. We're very happy to share that Splunk is now a Cisco company.",
+        "source": "Find out more",
+        "imageSrc": "breadcrum_arrow.png"
+    },
+    {
+        "heading": "Webinar",
+        "title": "Executive roundtable: The future of Cisco and Splunk",
+        "description": "Watch a replay of this engaging discussion, Cisco and Splunk leaders sharing insights on what the acquisition means for customers of both companies and the future of IT.",
+        "source": "Regester for webinar",
+        "imageSrc": "breadcrum_arrow.png"
+    },
+    {
+        "heading": "Analyst report",
+        "title": "Key findings on observability and AIOps",
+        "description": "Discover the key trends driving the adoption of observability and AIOps, its challenges, and what to look for in tools in this ESG report, sponsored by Cisco. ",
+        "source": "Access the ESG report",
+        "imageSrc": "breadcrum_arrow.png"
+    }
+]

@@ -6,6 +6,7 @@ import Content from "./Components/Content/Content";
 import Section from "./Components/Section/Section";
 import SectionA from "./Components/SectionA/SectionA";
 import Introducing from "./Components/IntroducingCisco/Introducing";
+import InsideCisco from "./Components/InsideCisco/InsideCisco";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Section />
       <SectionA />
       <Introducing />
+      <InsideCisco />
     </div>
   );
 };

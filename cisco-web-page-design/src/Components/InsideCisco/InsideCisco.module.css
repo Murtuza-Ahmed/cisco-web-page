@@ -1,0 +1,36 @@
+.InsideCisco {
+    margin: 5rem 4rem;
+    /* display: flex; */
+}
+
+.Content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.IconContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.IconContainer .Icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.Icon a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #0060ad;
+}
+
+.Icon h1 {
+    font-weight: normal;
+    font-style: normal;
+}
