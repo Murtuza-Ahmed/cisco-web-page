@@ -1,19 +1,28 @@
- .Title {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     margin-bottom: 4rem;
- }
+.Container {
+    width: 90%;
+    margin: 0 auto;
+}
 
- .Title h1 {
-     width: 800px;
-     text-align: center;
-     font-weight: 400;
-     font-style: normal;
- }
+.SectionPadding {
+    padding: 1rem 0;
+}
 
- .Products {
-     display: flex;
-     justify-content: space-evenly;
-     align-items: center;
- }
+.Title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.Title h1 {
+    width: 800px;
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Products {
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
