@@ -1,7 +1,15 @@
-.InsideCisco {
-    margin: 5rem 4rem;
-    /* display: flex; */
+.Container {
+    width: 90%;
+    margin: 0 auto;
 }
+
+.InsideCisco_Padding {
+    padding: 5rem 0 0 0;
+}
+
+/* .InsideCisco {
+    margin: 5rem 4rem;
+} */
 
 .Content {
     display: flex;
@@ -37,4 +45,7 @@
 
 .InsideCiscoCardsContainer {
     display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 2rem;
 }
