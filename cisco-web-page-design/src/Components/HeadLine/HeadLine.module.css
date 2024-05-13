@@ -1,6 +1,14 @@
-.Headline {
+.Main {
     background-color: #f4f5f6;
-    padding: .50rem 4rem;
+}
+
+.Container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.HeadlinePadding {
+    padding: .5rem 0;
 }
 
 .Headline .Logo {
@@ -9,7 +17,7 @@
 
 .Headline ul li {
     font-size: .80rem;
-    font-weight: 700;
+    font-weight: normal;
 }
 
 ul {
@@ -17,29 +25,29 @@ ul {
     padding: 0;
 }
 
-.Container {
+.ContainerSection {
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
 
-.Container .Contact ul {
+.ContainerSection .Contact ul {
     display: flex;
     align-items: center;
     margin: 0 2rem 0 0;
 }
 
-.Container .Contact ul li {
+.ContainerSection .Contact ul li {
     margin: 0 1rem;
 }
 
-.Container .LoginIcon ul {
+.ContainerSection .LoginIcon ul {
     display: flex;
     align-items: center;
-    margin: 0 4rem 0 0;
+    margin: 0 2rem 0 0;
 }
 
-.Container .Languge ul {
+.ContainerSection .Languge ul {
     display: flex;
     align-items: center;
 }
@@ -48,33 +56,14 @@ ul {
     display: none;
 }
 
-@media only screen and (max-width:768px) {
-    .Headline {
-        background: none;
-        padding: 0 4rem;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
+.ContainerSection .Contact ul {
+    cursor: pointer;
+}
 
-    .Headline .Logo {
-        display: inline-block;
+.ContainerSection .LoginIcon ul {
+    cursor: pointer;
+}
 
-    }
-
-    .Container .Contact ul {
-        display: none;
-    }
-
-    .LoginIcon ul img:nth-child(1) {
-        display: none;
-    }
-
-    .LoginIcon li {
-        margin: 0 2rem 0 0;
-    }
-
-    .Languge {
-        display: none;
-    }
+.Languge ul {
+    cursor: pointer;
 }
