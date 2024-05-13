@@ -1,9 +1,18 @@
+.Conatiner {
+    width: 90%;
+    margin: 0 auto 5rem;
+}
+
+.ContentPadding {
+    padding: 1rem 0;
+}
+
 .Content {
-    margin: 4rem 4rem;
+    /* margin: 4rem 4rem; */
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 3rem;
+    /* margin-top: 3rem; */
 }
 
 .ContentData {
@@ -12,7 +21,7 @@
     align-items: center;
     justify-content: center;
     gap: 1rem;
-    margin: 0 2rem;
+    margin: 0 1.5rem;
 }
 
 .ContentData .IconName {
