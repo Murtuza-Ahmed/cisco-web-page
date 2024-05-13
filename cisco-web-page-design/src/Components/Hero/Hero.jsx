@@ -17,7 +17,7 @@ const Hero = () => {
                   experts and be a part of shaping the future.
                 </p>
                 <div className={styles.Button}>
-                  <button>Register now</button>
+                  <button className="contain">Register now</button>
                 </div>
               </div>
             </div>
