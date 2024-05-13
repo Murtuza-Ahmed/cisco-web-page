@@ -1,5 +1,9 @@
+.SectionB_Padding {
+    padding: 8rem 0;
+}
+
 .SectionB {
-    margin: 8rem 4rem;
+    /* margin: 8rem 4rem; */
     display: flex;
     flex-direction: row-reverse;
     gap: 5rem;

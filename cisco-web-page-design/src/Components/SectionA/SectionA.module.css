@@ -1,5 +1,13 @@
+.Container {
+    width: 90%;
+    margin: 0 auto
+}
+.SectionA_Padding{
+    padding: 8rem 0;
+}
+
 .SectionA {
-    margin: 8rem 4rem;
+    /* margin: 8rem 4rem; */
     display: flex;
     gap: 5rem;
 }
