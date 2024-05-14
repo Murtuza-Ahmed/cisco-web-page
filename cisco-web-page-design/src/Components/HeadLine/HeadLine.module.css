@@ -68,6 +68,10 @@ ul {
     cursor: pointer;
 }
 
+.SearchIcon div {
+    display: none;
+}
+
 @media only screen and (max-width:768px) {
     .Main {
         background: none;
