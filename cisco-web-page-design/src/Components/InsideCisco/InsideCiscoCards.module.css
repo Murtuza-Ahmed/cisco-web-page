@@ -48,3 +48,9 @@
     color: #0060ad;
     letter-spacing: .1px;
 }
+
+@media only screen and (max-width:768px) {
+    .Content {
+        width: auto;
+    }
+}

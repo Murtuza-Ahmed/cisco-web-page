@@ -30,6 +30,17 @@ const InsideCisco = () => {
                 <InsideCiscoCards key={i} items={item} />
               ))}
             </div>
+            <hr />
+            <div className={styles.IconContainerResponsive}>
+              <div className={styles.Icon}>
+                <a href="#">More news</a>
+                <img src={getImageUrl("breadcrum_arrow.png")} />
+              </div>
+              <div className={styles.Icon}>
+                <a href="#">More events</a>
+                <img src={getImageUrl("breadcrum_arrow.png")} />
+              </div>
+            </div>
           </div>
         </div>
       </div>

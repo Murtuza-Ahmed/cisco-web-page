@@ -44,7 +44,11 @@ const Headline = () => {
                         alt="Search-Icon"
                         style={{ width: "20px" }}
                       />
-                      {}
+                      {menu ? (
+                        <ImCross onClick={() => setMenu(!menu)} />
+                      ) : (
+                        <FaBars onClick={() => setMenu(!menu)} />
+                      )}
                     </div>
                   </ul>
                 </div>

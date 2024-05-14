@@ -49,3 +49,48 @@
     align-items: baseline;
     margin-top: 2rem;
 }
+
+.IconContainerResponsive {
+    display: none;
+}
+
+@media only screen and (max-width:768px) {
+    .InsideCiscoCardsContainer {
+        flex-direction: column;
+        gap: 4rem;
+        margin-bottom: 4rem;
+    }
+
+    .Content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 5rem;
+    }
+
+    .IconContainer {
+        display: none;
+    }
+
+    .IconContainerResponsive {
+        display: block;
+    }
+
+    .IconContainerResponsive {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .IconContainerResponsive .Icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    hr {
+        width: 100%;
+    }
+}

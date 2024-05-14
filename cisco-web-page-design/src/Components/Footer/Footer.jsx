@@ -86,6 +86,38 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
+              <div className={styles.MenuIconResponsive}>
+                <ul>
+                  <li>
+                    <a href="#">
+                      <img
+                        src={getImageUrl("facebook.png")}
+                        style={{ width: "50px" }}
+                      />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src={getImageUrl("twitter.png")} />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src={getImageUrl("linkedin.png")} />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src={getImageUrl("youtube.png")} />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src={getImageUrl("instagram.png")} />
+                    </a>
+                  </li>
+                </ul>
+              </div>
               <div className={styles.FooterCisco}>
                 <p>©2024 Cisco Systems, Inc.</p>
               </div>

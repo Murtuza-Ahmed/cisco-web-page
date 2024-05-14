@@ -26,3 +26,16 @@
     justify-content: space-evenly;
     /* align-items: center; */
 }
+
+@media only screen and (max-width:768px) {
+    .Container {
+        width: 80%;
+    }
+
+    .Products {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+}

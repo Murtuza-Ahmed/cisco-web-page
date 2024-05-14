@@ -89,3 +89,47 @@ hr {
     color: #606162;
     font-size: .9rem;
 }
+
+.MenuIconResponsive {
+    display: none;
+}
+
+@media only screen and (max-width:768px) {
+    .MenuIcon {
+        display: none;
+    }
+
+    .Menu {
+        flex-basis: 100%;
+    }
+
+    .FooterEnd ul {
+        flex-wrap: wrap;
+        width: 500px;
+        align-items: center;
+        justify-content: center;
+        margin: 0 4rem;
+    }
+
+    .MenuIconResponsive {
+        display: block;
+    }
+
+    .MenuIconResponsive {
+        width: 550px;
+    }
+
+    .MenuIconResponsive ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .FooterCisco p {
+        width: 550px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

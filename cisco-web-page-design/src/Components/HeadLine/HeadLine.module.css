@@ -89,7 +89,7 @@ ul {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        width: 550px;
+        /* width: 550px; */
     }
 
     .Headline .Logo {
@@ -102,6 +102,13 @@ ul {
     }
 
     .LoginIcon ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .SearchIcon {
         display: flex;
         align-items: center;
         justify-content: center;
