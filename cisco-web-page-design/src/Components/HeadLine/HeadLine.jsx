@@ -4,8 +4,12 @@ import Login_icon from "../../assets/image/loginicon.png";
 import World_icon from "../../assets/image/worldicon.png";
 import Serach_icon from "../../assets/image/searchicon.png";
 import Logo from "../../assets/image/logo.png";
+import { FaBars } from "react-icons/fa6";
+import { ImCross } from "react-icons/im";
+import { useState } from "react";
 
 const Headline = () => {
+  const [menu, setMenu] = useState(false);
   return (
     <div>
       <div className={styles.Main}>
@@ -40,6 +44,7 @@ const Headline = () => {
                         alt="Search-Icon"
                         style={{ width: "20px" }}
                       />
+                      {}
                     </div>
                   </ul>
                 </div>

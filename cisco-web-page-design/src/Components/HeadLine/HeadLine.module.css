@@ -52,7 +52,7 @@ ul {
     align-items: center;
 }
 
-.SearchIcon {
+.SearchIcon img {
     display: none;
 }
 
@@ -66,4 +66,45 @@ ul {
 
 .Languge ul {
     cursor: pointer;
+}
+
+@media only screen and (max-width:768px) {
+    .Main {
+        background: none;
+    }
+
+    .Contact {
+        display: none;
+    }
+
+    .LoginIcon img {
+        display: none;
+    }
+
+    .Languge {
+        display: none;
+    }
+
+    .Headline {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 550px;
+    }
+
+    .Headline .Logo {
+        display: block;
+        width: 15%;
+    }
+
+    .SearchIcon img {
+        display: block;
+    }
+
+    .LoginIcon ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
 }

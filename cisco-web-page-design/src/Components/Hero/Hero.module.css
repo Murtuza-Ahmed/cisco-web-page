@@ -3,8 +3,9 @@
 .Main {
     background-image: url("../../assets/image/banner.avif");
     background-repeat: no-repeat;
-    background-size: contain;
-    height: 100vh;
+    background-size: cover;
+    /* margin-bottom: 2rem; */
+    /* height: 100vh; */
 }
 
 .Container {
