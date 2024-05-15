@@ -11,6 +11,9 @@ const Footer = () => {
             <div className={styles.MenuContainer}>
               <div className={styles.Menu}>
                 <ul>
+                  <li>
+                    <a href="#">Quick Links</a>
+                  </li>
                   <li>About Cisco</li>
                   <li>Contact Us</li>
                   <li>Careers</li>
@@ -54,6 +57,9 @@ const Footer = () => {
             <div className={styles.FooterMenuEnd}>
               <div className={styles.FooterEnd}>
                 <ul>
+                  <li className={styles.FooterLiFirst}>
+                    <a href="#">Resources and Legal</a>
+                  </li>
                   <li>
                     <a href="#">Feedback</a>
                   </li>

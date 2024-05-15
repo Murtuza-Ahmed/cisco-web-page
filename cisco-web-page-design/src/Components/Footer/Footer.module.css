@@ -93,6 +93,14 @@ hr {
     display: none;
 }
 
+.Menu ul li a:nth-child(1) {
+    display: none;
+}
+
+.FooterEnd .FooterLiFirst a {
+    display: none;
+}
+
 @media only screen and (max-width:768px) {
     .MenuIcon {
         display: none;
@@ -158,6 +166,10 @@ hr {
 }
 
 @media only screen and (max-width:425px) {
+    .FooterContainer {
+        margin: 0 2rem;
+    }
+
     .MenuContainer {
         justify-content: flex-start;
         margin-bottom: 4rem;
@@ -196,6 +208,24 @@ hr {
     }
 
     hr {
-        display: none;
+        width: 100%;
+    }
+
+    .Menu ul li a {
+        text-decoration: none;
+        font-size: 1.2rem;
+        color: #000;
+        font-weight: 500;
+    }
+
+    .Menu ul li a:nth-child(1) {
+        display: block;
+    }
+
+    .FooterEnd .FooterLiFirst a {
+        font-size: 1.2rem;
+        color: #000;
+        font-weight: 500;
+        display: block;
     }
 }

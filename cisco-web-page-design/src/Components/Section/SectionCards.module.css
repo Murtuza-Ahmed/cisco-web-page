@@ -81,3 +81,15 @@
         width: auto;
     }
 }
+
+@media only screen and (max-width:425px) {
+    .Cards {
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .Cards {
+        width: 300px;
+    }
+}

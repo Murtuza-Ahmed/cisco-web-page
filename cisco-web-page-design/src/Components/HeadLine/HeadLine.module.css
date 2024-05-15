@@ -121,6 +121,7 @@ ul {
 
     .SearchIcon div {
         display: block;
+        font-size: 2rem;
     }
 }
 
@@ -129,7 +130,15 @@ ul {
         margin: 0 1rem;
     }
 
+    .HeadlinePadding {
+        padding: 0;
+    }
+
     .ContainerSection .LoginIcon ul {
         margin: 0;
+    }
+
+    .SearchIcon div {
+        font-size: 2rem;
     }
 }

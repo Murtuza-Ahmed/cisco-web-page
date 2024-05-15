@@ -99,3 +99,36 @@
         width: 80%;
     }
 }
+
+@media only screen and (max-width:425px) {
+    .Container {
+        margin: 0 2rem;
+    }
+
+    .SectionA_Padding {
+        padding: 5rem 0;
+    }
+
+    .ContentTitle {
+        width: auto;
+    }
+
+    .ContainerContent h2 {
+        font-size: 1.3rem;
+        width: auto;
+    }
+
+    .ContainerContent p {
+        width: 375px;
+    }
+
+    .ContainerContent button {
+        padding: 1.10rem 1rem;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .ContainerContent p {
+        width: 300px;
+    }
+}

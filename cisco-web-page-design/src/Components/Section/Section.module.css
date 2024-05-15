@@ -48,6 +48,25 @@
 
 @media only screen and (max-width:425px) {
     .Container {
-        margin: 0 1rem;
+        margin: 0 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Title {
+        margin-bottom: 3rem;
+        width: 400px;
+    }
+
+    .Title h1 {
+        width: 350px;
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .Container {
+        margin: 0 3rem;
     }
 }

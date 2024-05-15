@@ -58,4 +58,18 @@
     .ContentData {
         margin: 0;
     }
+
+    .ContentData .IconName {
+        font-size: .80rem;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .ContentPadding {
+        padding: 35rem 0 0 0;
+    }
+
+    /* .Content {
+        width: 60%;
+    } */
 }

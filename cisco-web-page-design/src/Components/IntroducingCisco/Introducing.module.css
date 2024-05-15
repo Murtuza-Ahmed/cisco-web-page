@@ -47,3 +47,35 @@
     font-weight: 500;
     cursor: pointer;
 }
+
+@media only screen and (max-width:425px) {
+    .Container {
+        margin: 0 1rem;
+    }
+
+    .Content h3 {
+        font-size: 1.5rem;
+    }
+
+    .Content p {
+        font-size: .80rem;
+    }
+
+    .Content {
+        gap: .5rem;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .Container {
+        margin: 0 2rem;
+    }
+
+    .Content h3 {
+        font-size: 1.2rem;
+    }
+
+    .Content p {
+        font-size: .70rem;
+    }
+}

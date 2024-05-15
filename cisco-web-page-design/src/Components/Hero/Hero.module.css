@@ -92,14 +92,6 @@ p {
         top: 4rem;
         width: 455px;
     }
-
-    .Content h1 {
-        color: #000;
-    }
-
-    .Content p {
-        color: #000;
-    }
 }
 
 @media only screen and (max-width:768px) {
@@ -116,6 +108,14 @@ p {
         width: 650px;
         display: block;
     }
+
+    .Content h1 {
+        color: #000;
+    }
+
+    .Content p {
+        color: #000;
+    }
 }
 
 @media only screen and (max-width:425px) {
@@ -130,5 +130,11 @@ p {
 
     .Content hr {
         width: 100%;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .Content {
+        width: 350px;
     }
 }
