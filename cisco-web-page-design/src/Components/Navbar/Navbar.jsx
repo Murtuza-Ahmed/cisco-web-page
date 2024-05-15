@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./Navbar.module.css";
 import Logo from "../../assets/image/cisco-logo.svg";
 import Search_icon from "../../assets/image/searchicon.png";
+import World_icon from "../../assets/image/worldicon.png";
 
 const Navbar = () => {
   return (

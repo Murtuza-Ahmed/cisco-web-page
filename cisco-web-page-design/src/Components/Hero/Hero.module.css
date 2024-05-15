@@ -82,10 +82,38 @@ p {
     cursor: pointer;
 }
 
+.Content hr {
+    display: none;
+}
+
 @media only screen and (max-width:1024px) {
     .Content {
         position: absolute;
         top: 4rem;
         width: 455px;
+    }
+
+    .Content h1 {
+        color: #000;
+    }
+
+    .Content p {
+        color: #000;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .Content {
+        top: 28rem;
+    }
+
+    .Button button {
+        background-color: #0d274d;
+        color: #FFF;
+    }
+
+    .Content hr {
+        width: 650px;
+        display: block;
     }
 }

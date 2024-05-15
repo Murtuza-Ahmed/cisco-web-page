@@ -40,4 +40,8 @@
         margin: 0 auto;
         gap: 2rem;
     }
+
+    .ContentPadding {
+        padding: 25rem 0 0 0;
+    }
 }

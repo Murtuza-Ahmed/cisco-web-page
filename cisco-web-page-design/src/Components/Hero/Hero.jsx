@@ -28,6 +28,7 @@ const Hero = () => {
                   <div className={styles.Button}>
                     <button className="contain">Register now</button>
                   </div>
+                  <hr />
                 </div>
               </div>
             </div>
