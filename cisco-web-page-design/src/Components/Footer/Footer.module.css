@@ -68,7 +68,7 @@ hr {
     align-items: baseline;
     justify-content: center;
     gap: 3rem;
-    margin: 0 4rem;
+    margin: 0 2rem;
 }
 
 .FooterEnd ul {
@@ -154,5 +154,41 @@ hr {
 
     .Menu {
         flex-basis: auto;
+    }
+}
+
+@media only screen and (max-width:425px) {
+    .MenuContainer {
+        justify-content: flex-start;
+        margin-bottom: 4rem;
+    }
+
+    .Menu ul {
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    .MenuIconResponsive {
+        width: auto;
+    }
+
+    .FooterCisco p {
+        width: auto;
+    }
+
+    .FooterEnd ul {
+        width: auto;
+        margin: 0;
+        flex-direction: column;
+        align-items: baseline;
+        justify-content: flex-start;
+    }
+
+    .FooterMenuEnd {
+        margin: 0;
+    }
+
+    hr {
+        display: none;
     }
 }

@@ -76,6 +76,7 @@
 
     .ContainerSection {
         flex-direction: column;
+        display: none;
     }
 
     .RightMenu ul {
