@@ -70,3 +70,9 @@
         margin: 0 3rem;
     }
 }
+
+@media only screen and (max-width:320px) {
+    .Title {
+        width: 300px;
+    }
+}

@@ -126,3 +126,9 @@
         width: 300px;
     }
 }
+
+@media only screen and (max-width:320px) {
+    .ContainerContent p {
+        width: 260px;
+    }
+}

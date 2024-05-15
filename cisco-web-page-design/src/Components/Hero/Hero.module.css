@@ -138,3 +138,13 @@ p {
         width: 350px;
     }
 }
+
+@media only screen and (max-width:320px) {
+    .Content {
+        width: 300px;
+    }
+
+    .Button button {
+        padding: 1rem 2rem;
+    }
+}
