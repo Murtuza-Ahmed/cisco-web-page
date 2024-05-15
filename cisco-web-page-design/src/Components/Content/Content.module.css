@@ -45,3 +45,17 @@
         padding: 25rem 0 0 0;
     }
 }
+
+@media only screen and (max-width:425px) {
+    .Conatiner {
+        margin: 0 1rem 5rem;
+    }
+
+    .Content {
+        width: auto;
+    }
+
+    .ContentData {
+        margin: 0;
+    }
+}

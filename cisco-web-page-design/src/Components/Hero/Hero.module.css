@@ -117,3 +117,18 @@ p {
         display: block;
     }
 }
+
+@media only screen and (max-width:425px) {
+    .Container {
+        margin: 0 1rem;
+    }
+
+    .Content {
+        top: 15rem;
+        width: 400px;
+    }
+
+    .Content hr {
+        width: 100%;
+    }
+}

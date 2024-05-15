@@ -123,3 +123,13 @@ ul {
         display: block;
     }
 }
+
+@media only screen and (max-width:425px) {
+    .Container {
+        margin: 0 1rem;
+    }
+
+    .ContainerSection .LoginIcon ul {
+        margin: 0;
+    }
+}

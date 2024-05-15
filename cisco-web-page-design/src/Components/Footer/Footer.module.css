@@ -172,8 +172,15 @@ hr {
         width: auto;
     }
 
+    .MenuIconResponsive ul {
+        margin: 0 2rem;
+        gap: 1rem;
+    }
+
     .FooterCisco p {
         width: auto;
+        margin: -40px 4rem;
+        text-align: center;
     }
 
     .FooterEnd ul {
