@@ -7,6 +7,7 @@ import Logo from "../../assets/image/logo.png";
 import { FaBars } from "react-icons/fa6";
 import { ImCross } from "react-icons/im";
 import { useState } from "react";
+import Navbar from "../Navbar/Navbar";
 
 const Headline = () => {
   const [menu, setMenu] = useState(false);
