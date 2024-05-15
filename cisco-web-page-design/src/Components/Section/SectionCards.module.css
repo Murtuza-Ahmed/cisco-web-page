@@ -70,6 +70,10 @@
     .SectionCards {
         width: 100%;
     }
+
+    .Cards {
+        width: 600px;
+    }
 }
 
 @media only screen and (max-width:1024px) {

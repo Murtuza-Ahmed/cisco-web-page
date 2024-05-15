@@ -64,24 +64,35 @@
     color: #4747fd;
 }
 
+.SectionC .Image img {
+    width: 100%;
+}
+
 @media only screen and (max-width:768px) {
-    .ContentTitle {
-        width: auto;
-    }
+    @media only screen and (max-width:768px) {
+        .ContentTitle {
+            width: 550px;
+        }
 
-    .ContainerContent {
-        width: auto;
-    }
+        .ContainerContent {
+            width: auto;
+        }
 
-    .ContainerContent h2 {
-        width: auto;
-    }
+        .ContainerContent h2 {
+            width: auto;
+        }
 
-    .ContainerContent p {
-        width: auto;
-    }
+        .ContainerContent p {
+            width: auto;
+        }
 
-    .SectionC {
-        flex-direction: column;
+        .SectionC {
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        .SectionC .Image img {
+            width: 80%;
+        }
     }
 }

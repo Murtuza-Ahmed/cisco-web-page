@@ -14,7 +14,6 @@ const SectionA = () => {
                 <img
                   src={getImageUrl("sectionA.avif")}
                   alt="Cisco Full-Stack_Imsage"
-                  style={{ width: "100%" }}
                 />
               </div>
               <div className={styles.Content}>

@@ -4,7 +4,7 @@
 }
 
 .FooterContainer {
-    width: 100%;
+    width: 90%;
     margin: 0 4rem;
 }
 
@@ -49,7 +49,6 @@ ul {
     justify-content: center;
     align-items: center;
     gap: 1rem;
-
 }
 
 .MenuIcon ul li img {
@@ -99,15 +98,19 @@ hr {
         display: none;
     }
 
+    .MenuContainer {
+        justify-content: center;
+    }
+
     .Menu {
         flex-basis: 100%;
     }
 
     .FooterEnd ul {
         flex-wrap: wrap;
-        width: 500px;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
+        width: 450px;
         margin: 0 4rem;
     }
 
@@ -131,5 +134,25 @@ hr {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .MenuIconResponsive ul li img {
+        width: 30px;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .FooterEnd ul {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .FooterMenuEnd {
+        width: auto;
+    }
+
+    .Menu {
+        flex-basis: auto;
     }
 }

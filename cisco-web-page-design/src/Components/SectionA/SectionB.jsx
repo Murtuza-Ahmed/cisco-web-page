@@ -13,7 +13,6 @@ const SectionB = () => {
               <img
                 src={getImageUrl("sctionB.webp")}
                 alt="Cisco Full-Stack_Imsage"
-                style={{ width: "100%" }}
               />
             </div>
             <div className={styles.Content}>

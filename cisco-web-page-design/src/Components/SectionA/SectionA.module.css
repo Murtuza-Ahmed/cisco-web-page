@@ -69,9 +69,13 @@
     color: #4747fd;
 }
 
+.SectionA .Image img {
+    width: 100%;
+}
+
 @media only screen and (max-width:768px) {
     .ContentTitle {
-        width: auto;
+        width: 550px;
     }
 
     .ContainerContent {
@@ -88,5 +92,10 @@
 
     .SectionA {
         flex-direction: column;
+        gap: 2rem;
+    }
+
+    .SectionA .Image img {
+        width: 80%;
     }
 }
