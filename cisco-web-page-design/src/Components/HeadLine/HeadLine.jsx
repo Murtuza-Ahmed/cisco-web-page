@@ -1,13 +1,13 @@
-import React from "react";
-import styles from "./HeadLine.module.css";
-import Login_icon from "../../assets/image/loginicon.png";
+import { useState } from "react";
+import styles from "./HeadLine.module.css";  //headline.module.css
+import Login_icon from "../../assets/image/loginicon.png"; // LoginIcon
 import World_icon from "../../assets/image/worldicon.png";
 import Serach_icon from "../../assets/image/searchicon.png";
 import Logo from "../../assets/image/logo.png";
 import { FaBars } from "react-icons/fa6";
-import { ImCross } from "react-icons/im";
-import { useState } from "react";
 import Navbar from "../Navbar/Navbar";
+import { ImCross } from "react-icons/im";
+
 
 const Headline = () => {
   const [menu, setMenu] = useState(false);
@@ -65,6 +65,7 @@ const Headline = () => {
                     <li>EN US</li>
                   </ul>
                 </div>
+                <Navbar isMenuOpen={menu} /> 
               </div>
             </div>
           </div>

@@ -1,14 +1,15 @@
 import React from "react";
 import styles from "./Navbar.module.css";
+import commonStyles from "../common.module.css";
 import Logo from "../../assets/image/cisco-logo.svg";
 import Search_icon from "../../assets/image/searchicon.png";
-import World_icon from "../../assets/image/worldicon.png";
 
-const Navbar = () => {
+const Navbar = ({isMenuOpen}) => {
+  console.log('ismenu' ,isMenuOpen )
   return (
     <div>
       <div className={styles.Main}>
-        <div className={styles.Container}>
+        <div className={commonStyles.Container}>
           <div className={styles.NavbarPadding}>
             <div className={styles.Navbar}>
               <div className={styles.ContainerSection}>
@@ -19,7 +20,7 @@ const Navbar = () => {
                     style={{ width: "100px" }}
                   />
                 </div>
-                <div className={styles.Menu}>
+                <div style={{display: isMenuOpen ? "block" : "none"}}>
                   <ul>
                     <li>Products and Services</li>
                     <li>Solutions</li>
