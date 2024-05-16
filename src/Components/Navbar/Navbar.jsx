@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Navbar.module.css";
-import commonStyles from "../common.module.css";
+import commonStyles from "../../assets/Style/common.module.css";
 import Logo from "../../assets/image/cisco-logo.svg";
 import Search_icon from "../../assets/image/searchicon.png";
 
@@ -9,7 +9,7 @@ const Navbar = ({isMenuOpen}) => {
   return (
     <div>
       <div className={styles.Main}>
-        <div className={commonStyles.Container}>
+        <div className={commonStyles.container}>
           <div className={styles.NavbarPadding}>
             <div className={styles.Navbar}>
               <div className={styles.ContainerSection}>

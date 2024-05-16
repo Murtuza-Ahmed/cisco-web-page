@@ -1,6 +1,6 @@
 import React from "react";
-import Headline from "./Components/HeadLine/HeadLine";
-import Navbar from "./Components/Navbar/Navbar";
+import Header from "./Components/Header/Header";
+// import Navbar from "./Components/Navbar/Navbar";
 import Hero from "./Components/Hero/Hero";
 import Content from "./Components/Content/Content";
 import Section from "./Components/Section/Section";
@@ -11,8 +11,8 @@ import Footer from "./Components/Footer/Footer";
 
 const App = () => {
   return (
-    <div>
-      <Headline />
+    <>
+      <Header />
       {/* <Navbar /> */}
       <Hero />
       <Content />
@@ -21,7 +21,7 @@ const App = () => {
       <Introducing />
       <InsideCisco />
       <Footer />
-    </div>
+    </>
   );
 };
 

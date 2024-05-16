@@ -1,23 +1,21 @@
-.Main {
+#header {
     background-color: #f4f5f6;
 }
 
-.Container {
-    width: 90%;
-    margin: 0 4rem;
-}
-
-.HeadlinePadding {
+.header_padding {
     padding: .5rem 0;
 }
 
-.Headline .Logo {
-    display: none;
+.row {
+    display: flex;
 }
 
-.Headline ul li {
-    font-size: .80rem;
-    font-weight: normal;
+.column {
+    flex: 1;
+}
+
+.logo {
+    display: none;
 }
 
 ul {
@@ -25,56 +23,57 @@ ul {
     padding: 0;
 }
 
-.ContainerSection {
+.menu ul {
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: flex-end;
+    gap: 1.5rem;
+    float: right;
 }
 
-.ContainerSection .Contact ul {
-    display: flex;
-    align-items: center;
-    margin: 0 2rem 0 0;
+.menu ul li {
+    font-size: .80rem;
 }
 
-.ContainerSection .Contact ul li {
-    margin: 0 1rem;
-}
-
-.ContainerSection .LoginIcon ul {
-    display: flex;
-    align-items: center;
-    margin: 0 2rem 0 0;
-}
-
-.ContainerSection .Languge ul {
-    display: flex;
-    align-items: center;
-}
-
-.SearchIcon img {
+.menu ul div {
     display: none;
 }
 
-.ContainerSection .Contact ul {
-    cursor: pointer;
-}
-
-.ContainerSection .LoginIcon ul {
-    cursor: pointer;
-}
-
-.Languge ul {
-    cursor: pointer;
-}
-
-.SearchIcon div {
+.responsive_image img {
     display: none;
+}
+
+.menu ul .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .2rem;
 }
 
 @media only screen and (max-width:768px) {
-    .Main {
+    #header {
         background: none;
+    }
+
+    .responsive_image img {
+        display: block;
+    }
+
+    .logo {
+        display: block;
+    }
+
+    .menu ul li:nth-child(1),
+    .menu ul li:nth-child(2) {
+        display: none;
+    }
+
+    .icon img {
+        display: none;
+    }
+
+    .menu ul .responsive_icon {
+        display: none;
     }
 
     .Contact {
