@@ -20,11 +20,7 @@ const Header = () => {
               <div className={styles.row}>
                 <div className={styles.column}>
                   <div className={styles.logo}>
-                    <img
-                      src={Logo}
-                      alt="Logo_CiscoCompany"
-                      style={{ width: "80px" }}
-                    />
+                    <img src={Logo} alt="Logo_CiscoCompany" />
                   </div>
                 </div>
                 <div className={styles.column}>
