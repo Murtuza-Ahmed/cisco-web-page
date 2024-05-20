@@ -4,47 +4,50 @@ import commonStyles from "../../assets/Style/common.module.css";
 import Logo from "../../assets/image/cisco-logo.svg";
 import Search_icon from "../../assets/image/searchicon.png";
 
-const Navbar = ({isMenuOpen}) => {
-  console.log('ismenu' ,isMenuOpen )
+const Navbar = ({ isMenuOpen }) => {
   return (
-    <div>
-      <div className={styles.Main}>
-        <div className={commonStyles.container}>
-          <div className={styles.NavbarPadding}>
-            <div className={styles.Navbar}>
-              <div className={styles.ContainerSection}>
-                <div className={styles.Image}>
-                  <img
-                    src={Logo}
-                    alt="Cisco Company Logo"
-                    style={{ width: "100px" }}
-                  />
+    <>
+      <section id={styles.navbar}>
+        <div
+          className={`${commonStyles.container_laptop} ${commonStyles.container_mobile} ${commonStyles.container_small_mobile}`}
+        >
+          <div className={styles.navbar_padding}>
+            <div className={styles.main}>
+              <div className={styles.row}>
+                <div className={styles.column}>
+                  <div className={styles.left_side}>
+                    <img src={Logo} alt="Cisco Company Logo" />
+                    <div style={{ display: isMenuOpen ? "block" : "none" }}>
+                      <ul>
+                        <li>Products and Services</li>
+                        <li>Solutions</li>
+                        <li>Support</li>
+                        <li>Learn</li>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
-                <div style={{display: isMenuOpen ? "block" : "none"}}>
-                  <ul>
-                    <li>Products and Services</li>
-                    <li>Solutions</li>
-                    <li>Support</li>
-                    <li>Learn</li>
-                  </ul>
-                </div>
-                <div className={styles.RightMenu}>
-                  <ul>
-                    <li>Explore Cisco</li>
-                    <li>Search</li>
-                    <img
-                      src={Search_icon}
-                      alt="Search-Icon"
-                      style={{ width: "20px" }}
-                    />
-                  </ul>
+                <div className={styles.column}>
+                  <div className={styles.right_side}>
+                    <div style={{ display: isMenuOpen ? "flex" : "none" }}>
+                      <ul>
+                        <li>Explore Cisco</li>
+                      </ul>
+                    </div>
+
+                    <ul>
+                      <li>Search</li>
+
+                      <img src={Search_icon} alt="Search-Icon" />
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      </section>
+    </>
   );
 };
 
