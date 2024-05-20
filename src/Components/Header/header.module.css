@@ -14,7 +14,7 @@
     flex: 1;
 }
 
-.logo img {
+.logo_image img {
     display: none;
     width: 80px;
 }
@@ -56,11 +56,21 @@ ul {
         background: none;
     }
 
+    .header_padding {
+        padding: 0;
+    }
+
+    .column_responsive {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .responsive_image img {
         display: block;
     }
 
-    .logo {
+    .logo_image img {
         display: block;
     }
 
@@ -89,56 +99,13 @@ ul {
         display: none;
     }
 
-    .Headline {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        /* width: 550px; */
-    }
-
-    .Headline .Logo {
+    .menu ul div {
         display: block;
-        width: 15%;
+        font-size: 2.10rem;
     }
 
-    .SearchIcon img {
-        display: block;
-    }
-
-    .LoginIcon ul {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 1rem;
-    }
-
-    .SearchIcon {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 1rem;
-    }
-
-    .SearchIcon div {
-        display: block;
-        font-size: 2rem;
-    }
-}
-
-@media only screen and (max-width:425px) {
-    .Container {
-        margin: 0 1rem;
-    }
-
-    .HeadlinePadding {
-        padding: 0;
-    }
-
-    .ContainerSection .LoginIcon ul {
-        margin: 0;
-    }
-
-    .SearchIcon div {
-        font-size: 2rem;
+    .menu ul li {
+        font-size: 1rem;
+        font-weight: 400;
     }
 }

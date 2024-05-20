@@ -1,4 +1,18 @@
-.container {
+.container_laptop {
     width: 90%;
     margin: 0 4rem;
+}
+
+@media (max-width:425px) {
+    .container_mobile {
+        width: 90%;
+        margin: 0 2rem;
+    }
+}
+
+@media (max-width:375px) and (min-width:320px) {
+    .container_small_mobile {
+        width: 90%;
+        margin: 0 1rem;
+    }
 }

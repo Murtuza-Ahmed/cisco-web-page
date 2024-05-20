@@ -14,16 +14,18 @@ const Header = () => {
   return (
     <>
       <header id={styles.header}>
-        <div className={commonStyle.container}>
+        <div
+          className={`${commonStyle.container_laptop} ${commonStyle.container_mobile} ${commonStyle.container_small_mobile}`}
+        >
           <div className={styles.header_padding}>
             <div className={styles.main}>
               <div className={styles.row}>
                 <div className={styles.column}>
-                  <div className={styles.logo}>
+                  <div className={styles.logo_image}>
                     <img src={Logo} alt="Logo_CiscoCompany" />
                   </div>
                 </div>
-                <div className={styles.column}>
+                <div className={`${styles.column} ${styles.column_responsive}`}>
                   <div className={styles.menu}>
                     <ul>
                       <li>Contact</li>
