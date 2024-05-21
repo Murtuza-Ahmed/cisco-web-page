@@ -1,150 +1,149 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-.Main .TaserImage img {
+.reponsive_image img {
     width: 100%;
 }
 
-.Main .TaserImage picture {
-    margin: 0;
+.hero_banner_padding {
     padding: 0;
 }
 
-.Container {
-    width: 90%;
-    margin: 0 4rem;
+.row {
+    display: flex;
 }
 
-.HeroPadding {
-    padding: 1rem 0;
+.column {
+    flex: 1;
+    flex-basis: 100%;
 }
 
-.TaserImage {
+.main {
     position: relative;
 }
 
-.Content {
+.cisco_content {
     position: absolute;
-    top: 8rem;
-    width: 584px;
+    top: 10rem;
+    width: 500px;
     display: flex;
     flex-direction: column;
-    align-items: baseline;
-    justify-content: center;
     gap: 1rem;
 }
 
-/* .BannerImage {
-    position: relative;
-} */
-
-/* .Content {
-    position: absolute;
-    top: 8rem;
-    left: 4rem;
-    width: 500px;
-} */
-
-.Content h1,
+.cisco_content h1,
 p {
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-}
-
-.Content h1 {
-    font-weight: normal;
-    color: #FFF;
-    font-size: 3rem;
-    margin-bottom: 1rem;
-}
-
-.Content p {
-    color: #FFF;
-    font-size: 1rem;
-    line-height: 20px;
+    color: #fff;
     letter-spacing: 1px;
-    margin-bottom: 1rem;
 }
 
-/* .Button {
-    position: absolute;
-    top: 22rem;
-    left: 4rem;
-} */
+.cisco_content h1 {
+    font-size: 3rem;
+    font-weight: 500;
+}
 
-.Button button {
-    padding: 1.5rem 3rem;
+.cisco_content p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    width: 730px;
+}
+
+.cisco_content button {
+    padding: 1.9rem 2.9rem;
     border: none;
     border-radius: 5rem;
     font-size: 1rem;
     color: #0d274d;
-    font-weight: 500;
-    font-style: normal;
+    font-weight: 400;
     cursor: pointer;
+    width: 250px;
 }
 
-.Content hr {
-    display: none;
-}
-
-@media only screen and (max-width:1024px) {
-    .Content {
-        position: absolute;
-        top: 4rem;
-        width: 455px;
-    }
-}
-
-@media only screen and (max-width:768px) {
-    .Content {
-        top: 28rem;
-    }
-
-    .Button button {
-        background-color: #0d274d;
-        color: #FFF;
-    }
-
-    .Content hr {
-        width: 650px;
-        display: block;
-    }
-
-    .Content h1 {
-        color: #000;
-    }
-
-    .Content p {
-        color: #000;
-    }
-}
-
-@media only screen and (max-width:425px) {
-    .Container {
-        margin: 0 1rem;
-    }
-
-    .Content {
-        top: 15rem;
+@media (max-width:1024px) {
+    .cisco_content {
+        top: 5rem;
         width: 400px;
     }
 
-    .Content hr {
-        width: 100%;
+    .cisco_content p {
+        width: 450px;
+    }
+
+    .cisco_content h1 {
+        font-size: 1.9rem;
+    }
+
+    .cisco_content p {
+        font-size: .80rem;
+    }
+
+    .cisco_content button {
+        padding: 1rem 2rem;
+        width: 200px;
     }
 }
 
-@media only screen and (max-width:375px) {
-    .Content {
+@media (max-width:768px) {
+    .cisco_content {
+        top: 25rem;
+        width: 600px;
+    }
+
+    .cisco_content button {
+        background-color: #0060ad;
+        color: #fff;
+    }
+
+    .cisco_content h1,
+    p {
+        color: #000;
+    }
+
+    .cisco_content h1 {
+        font-size: 2.5rem;
+    }
+
+    .cisco_content p {
+        font-size: .90rem;
+        width: 650px;
+    }
+}
+
+@media (max-width:425px) {
+    .cisco_content {
+        top: 15rem;
+        width: 380px;
+    }
+
+    .cisco_content p {
         width: 350px;
     }
 }
 
-@media only screen and (max-width:320px) {
-    .Content {
+@media (max-width:428px) {
+    .cisco_content {
+        top: 15rem;
         width: 300px;
     }
 
-    .Button button {
-        padding: 1rem 2rem;
+    .cisco_content p {
+        width: 250px;
+    }
+}
+
+@media (max-width:375px) {
+    .cisco_content {
+        width: 350px;
+    }
+
+    .cisco_content p {
+        width: 300px;
+    }
+}
+
+@media (max-width:320px) {
+    .cisco_content {
+        width: 300px;
+    }
+
+    .cisco_content p {
+        width: 250px;
     }
 }
