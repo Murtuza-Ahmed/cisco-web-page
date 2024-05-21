@@ -69,6 +69,10 @@ ul {
     .column ul li {
         font-size: .80rem;
     }
+
+    .left_side ul {
+        gap: 1rem;
+    }
 }
 
 @media (max-width:768px) {

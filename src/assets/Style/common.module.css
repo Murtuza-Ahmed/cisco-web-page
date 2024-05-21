@@ -1,6 +1,6 @@
 .container_laptop {
     width: 90%;
-    margin: 0 4rem;
+    margin: 0 auto;
 }
 
 @media (max-width:425px) {

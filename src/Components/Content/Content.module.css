@@ -1,36 +1,38 @@
-.Conatiner {
-    width: 90%;
-    margin: 0 4rem 5rem;
+.content_padding {
+    padding: 2rem 0;
 }
 
-.ContentPadding {
-    padding: 1rem 0;
+/* .row {
+    display: flex;
 }
 
-.Content {
-    /* margin: 4rem 4rem; */
+.column {
+    flex: 1;
+    flex-basis: 100%;
+} */
+
+.main div {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin-top: 3rem; */
+    gap: 2rem;
+    line-height: 1px;
 }
 
-.ContentData {
-    display: flex;
+.recive_data {
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-    margin: 0 1.5rem;
 }
 
-.ContentData .IconName {
+.recive_data p {
+    color: #000;
     font-size: 1rem;
-    font-weight: 500;
-    cursor: pointer;
+    font-weight: 400;
 }
 
-@media only screen and (max-width:768px) {
+@media (max-width:768px) {
+    .content_padding{
+        padding: 20rem 0 5rem 0;
+    }
     .Content {
         width: 70%;
         flex-wrap: wrap;
