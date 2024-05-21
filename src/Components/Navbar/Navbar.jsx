@@ -8,16 +8,17 @@ const Navbar = ({ isMenuOpen }) => {
   return (
     <>
       <section id={styles.navbar}>
-        <div
-          className={`${commonStyles.container_laptop} ${commonStyles.container_mobile} ${commonStyles.container_small_mobile}`}
-        >
-          <div className={styles.navbar_padding}>
-            <div className={styles.main}>
+        <div className={styles.main}>
+          <div
+            className={`${commonStyles.container_laptop} ${commonStyles.container_mobile} ${commonStyles.container_small_mobile}`}
+          >
+            <div className={styles.navbar_padding}>
               <div className={styles.row}>
                 <div className={styles.column}>
                   <div className={styles.left_side}>
                     <img src={Logo} alt="Cisco Company Logo" />
-                    <div style={{ display: isMenuOpen ? "block" : "none" }}>
+
+                    <div style={{ display: isMenuOpen ? "block" : "" }}>
                       <ul>
                         <li>Products and Services</li>
                         <li>Solutions</li>
@@ -29,7 +30,7 @@ const Navbar = ({ isMenuOpen }) => {
                 </div>
                 <div className={styles.column}>
                   <div className={styles.right_side}>
-                    <div style={{ display: isMenuOpen ? "flex" : "none" }}>
+                    <div style={{ display: isMenuOpen ? "block" : "" }}>
                       <ul>
                         <li>Explore Cisco</li>
                       </ul>
