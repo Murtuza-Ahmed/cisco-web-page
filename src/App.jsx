@@ -1,4 +1,3 @@
-import React from "react";
 import Header from "./Components/Header/Header";
 // import Navbar from "./Components/Navbar/Navbar";
 import Hero from "./Components/Hero/Hero";
@@ -21,6 +20,7 @@ const App = () => {
       <Introducing />
       <InsideCisco />
       <Footer />
+      
     </>
   );
 };

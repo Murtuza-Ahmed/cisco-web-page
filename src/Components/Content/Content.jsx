@@ -1,10 +1,13 @@
-import React from "react";
 import styles from "./content.module.css";
 import Data from "../../data/Content.json";
-import { getImageUrl } from "../../pages/utils";
+import { getImageUrl } from "../../utils/utils.js";
 import commounStyle from "../../assets/Style/common.module.css";
 
 const Content = () => {
+  const firstData = Data.slice(0, 3);
+  const secondData = Data.slice(3, 6);
+  // console.log("FIRST DATA", firstData);
+  // console.log("SECOND DATA", secondData);
   return (
     <>
       <section id={styles.cisco_content}>
@@ -15,39 +18,36 @@ const Content = () => {
             <div className={styles.content_padding}>
               <div className={styles.row}>
                 <div className={styles.column}>
-                  
-                    {Data.map((item, i) => (
-                      <div key={i} className={styles.recive_data}>
+                  {firstData.map((item, index) => (
+                    <ul key={index} className={styles.content_ul}>
+                      <li>
                         <img
                           src={getImageUrl(item.imageSrc)}
                           alt={item.title}
                         />
-                        <p>{item.title}</p>
-                      </div>
-                    ))}
+                      </li>
+                      <li>{item.title}</li>
+                    </ul>
+                  ))}
                 </div>
-                {/* <div className={styles.column}></div> */}
+                <div className={styles.column}>
+                  {secondData.map((item, index) => (
+                    <ul key={index} className={styles.content_ul}>
+                      <li>
+                        <img
+                          src={getImageUrl(item.imageSrc)}
+                          alt={item.title}
+                        />
+                      </li>
+                      <li>{item.title}</li>
+                    </ul>
+                  ))}
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      {/* <div className={styles.Main}>
-        <div className={styles.Conatiner}>
-          <div className={styles.ContentPadding}>
-            <div className={styles.Content}>
-              {Data.map((item, i) => (
-                <div key={i} className={styles.ContentData}>
-                  <div className={styles.ImageData}>
-                    <img src={getImageUrl(item.imageSrc)} />
-                  </div>
-                  <div className={styles.IconName}>{item.title}</div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </div> */}
     </>
   );
 };

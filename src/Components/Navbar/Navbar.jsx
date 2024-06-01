@@ -1,10 +1,11 @@
-import React from "react";
 import styles from "./navbar.module.css";
 import commonStyles from "../../assets/Style/common.module.css";
 import Logo from "../../assets/image/cisco-logo.svg";
 import Search_icon from "../../assets/image/searchicon.png";
 
-const Navbar = ({ isMenuOpen }) => {
+const Navbar = (isMenuOpen) => {
+  console.log("MENU", isMenuOpen);
+  //   console.log("NUMBER", isMenuNum);
   return (
     <>
       <section id={styles.navbar}>
@@ -18,7 +19,8 @@ const Navbar = ({ isMenuOpen }) => {
                   <div className={styles.left_side}>
                     <img src={Logo} alt="Cisco Company Logo" />
 
-                    <div style={{ display: isMenuOpen ? "block" : "" }}>
+                    <div className={`menu ${isMenuOpen === false ? "open" : ""}`}>
+                      
                       <ul>
                         <li>Products and Services</li>
                         <li>Solutions</li>
@@ -30,7 +32,7 @@ const Navbar = ({ isMenuOpen }) => {
                 </div>
                 <div className={styles.column}>
                   <div className={styles.right_side}>
-                    <div style={{ display: isMenuOpen ? "block" : "" }}>
+                    <div style={{ display: isMenuOpen ? "block" : "none" }}>
                       <ul>
                         <li>Explore Cisco</li>
                       </ul>

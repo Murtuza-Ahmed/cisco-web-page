@@ -1,6 +1,5 @@
-import React from "react";
-import styles from "./Footer.module.css";
-import { getImageUrl } from "../../pages/utils";
+import styles from "./footer.module.css";
+import { getImageUrl } from "../../utils/utils.js";
 
 const Footer = () => {
   return (

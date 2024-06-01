@@ -2,37 +2,38 @@
     padding: 2rem 0;
 }
 
-/* .row {
+.row {
     display: flex;
 }
 
 .column {
     flex: 1;
-    flex-basis: 100%;
-} */
+    flex-basis: 48%;
+}
 
-.main div {
+/* .main div {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2rem;
     line-height: 1px;
-}
+} */
 
-.recive_data {
+/* .recive_data {
     flex-direction: column;
-}
+} */
 
-.recive_data p {
+/* .recive_data p {
     color: #000;
     font-size: 1rem;
     font-weight: 400;
-}
+} */
 
 @media (max-width:768px) {
-    .content_padding{
+    .content_padding {
         padding: 20rem 0 5rem 0;
     }
+
     .Content {
         width: 70%;
         flex-wrap: wrap;

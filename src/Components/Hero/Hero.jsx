@@ -1,5 +1,4 @@
-import React from "react";
-import styles from "./Hero.module.css";
+import styles from "./hero.module.css";
 import Banner from "../../assets/image/banner.avif";
 import Responive_Banner from "../../assets/image/responsive-banner.webp";
 import commounStyles from "../../assets/Style/common.module.css";

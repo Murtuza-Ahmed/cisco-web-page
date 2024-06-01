@@ -12,11 +12,6 @@
     flex-basis: 50%;
 }
 
-ul {
-    margin: 0;
-    padding: 0;
-}
-
 .left_side {
     display: flex;
     /* justify-content: center; */
@@ -35,9 +30,9 @@ ul {
     width: 100px;
 }
 
-.left_side div {
+/* .left_side div {
     display: block;
-}
+} */
 
 .right_side {
     display: flex;
@@ -57,7 +52,7 @@ ul {
 }
 
 .column ul li {
-    font-size: 1.1rem;
+    font-size: .90rem;
     font-weight: 400;
 }
 
@@ -94,4 +89,13 @@ ul {
     .right_side ul:nth-child(2) {
         display: none;
     }
+
+    .open {
+        display: block;
+    }
+
+    /* .menu ul .close {
+        display: none;
+    } */
+
 }

@@ -1,6 +1,5 @@
-import React from "react";
 import styles from "./SectionB.module.css";
-import { getImageUrl } from "../../pages/utils";
+import { getImageUrl } from "../../utils/utils.js";
 import SectionC from "./SectionC";
 
 const SectionB = () => {

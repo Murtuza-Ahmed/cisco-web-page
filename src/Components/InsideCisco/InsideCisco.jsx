@@ -1,8 +1,7 @@
-import React from "react";
 import styles from "./InsideCisco.module.css";
-import { getImageUrl } from "../../pages/utils";
-import Inside_Cisco from "../../data/InsideCisco.json";
-import InsideCiscoCards from "./InsideCiscoCards";
+import { getImageUrl } from "../../utils/utils.js";
+// import Inside_Cisco from "../../data/InsideCisco.json";
+// import InsideCiscoCards from "./InsideCiscoCards";
 
 const InsideCisco = () => {
   return (
@@ -25,11 +24,11 @@ const InsideCisco = () => {
                 </div>
               </div>
             </div>
-            <div className={styles.InsideCiscoCardsContainer}>
+            {/* <div className={styles.InsideCiscoCardsContainer}>
               {Inside_Cisco.map((item, i) => (
                 <InsideCiscoCards key={i} items={item} />
               ))}
-            </div>
+            </div> */}
             <hr />
             <div className={styles.IconContainerResponsive}>
               <div className={styles.Icon}>

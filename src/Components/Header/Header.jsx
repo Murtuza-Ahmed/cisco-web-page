@@ -6,11 +6,26 @@ import Serach_icon from "../../assets/image/searchicon.png";
 import Logo from "../../assets/image/logo.png";
 import commonStyle from "../../assets/Style/common.module.css";
 import { FaBars } from "react-icons/fa6";
-import Navbar from "../Navbar/Navbar";
+import Navbar from "../Navbar/Navbar.jsx";
 import { ImCross } from "react-icons/im";
 
 const Header = () => {
   const [menu, setMenu] = useState(false);
+  // const [menuNum, setMenuNum] = useState(0);
+  // console.log(menu);
+  // console.log(menuNum, typeof menuNum);
+  const handleOpenChange = (open) => {
+    setMenu(open);
+    // setMenuNum(num);
+    // console.log("TRUE", open, num, typeof num);
+    console.log("OPEN", open);
+  };
+  const handleCloseChange = (close) => {
+    setMenu(close);
+    // setMenuNum(num);
+    console.log("CLOSE", close);
+    // console.log("FALSE", close, num, typeof num);
+  };
   return (
     <>
       <header id={styles.header}>
@@ -47,9 +62,9 @@ const Header = () => {
                       </li>
                       <div>
                         {menu ? (
-                          <ImCross onClick={() => setMenu(!menu)} />
+                          <ImCross onClick={() => handleCloseChange(false)} />
                         ) : (
-                          <FaBars onClick={() => setMenu(!menu)} />
+                          <FaBars onClick={() => handleOpenChange(true)} />
                         )}
                       </div>
                       <li

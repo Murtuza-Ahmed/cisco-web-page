@@ -1,7 +1,6 @@
-import React from "react";
 import styles from "./Introducing.module.css";
-import { getImageUrl } from "../../pages/utils";
-import Video from "./Video.jsx";
+import { getImageUrl } from "../../utils/utils.js";
+// import Video from "./Video.jsx";
 
 const Introducing = () => {
   return (
@@ -19,7 +18,7 @@ const Introducing = () => {
                 </div>
               </div>
             </div>
-            <Video />
+            {/* <Video /> */}
           </div>
         </div>
       </div>

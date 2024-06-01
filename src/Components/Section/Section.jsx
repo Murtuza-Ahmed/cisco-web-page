@@ -1,7 +1,6 @@
-import React from "react";
 import styles from "./Section.module.css";
-import CiscoData from "../../data/LetestProduct.json";
-import SectionCards from "./SectionCards";
+// import CiscoData from "../../data/LetestProduct.json";
+// import SectionCards from "./SectionCards";
 
 const Section = () => {
   return (
@@ -13,11 +12,11 @@ const Section = () => {
               <div className={styles.Title}>
                 <h1>Latest products and innovations from the RSA Conference</h1>
               </div>
-              <div className={styles.Products}>
+              {/* <div className={styles.Products}>
                 {CiscoData.map((item, i) => (
-                  <SectionCards key={i} items={item} />
+                  <SectionCards key={i} itemData={item} />
                 ))}
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
