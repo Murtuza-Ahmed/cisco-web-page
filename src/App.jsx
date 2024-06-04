@@ -1,5 +1,5 @@
 import Header from "./Components/Header/Header";
-// import Navbar from "./Components/Navbar/Navbar";
+import Navbar from "./Components/Navbar/Navbar";
 import Hero from "./Components/Hero/Hero";
 import Content from "./Components/Content/Content";
 import Section from "./Components/Section/Section";
@@ -12,7 +12,7 @@ const App = () => {
   return (
     <>
       <Header />
-      {/* <Navbar /> */}
+      <Navbar />
       <Hero />
       <Content />
       <Section />

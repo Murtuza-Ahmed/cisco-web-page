@@ -1,4 +1,4 @@
-#header {
+.main {
     background-color: #f4f5f6;
 }
 
@@ -12,16 +12,12 @@
 
 .column {
     flex: 1;
+    flex-basis: 100%;
 }
 
 .logo_image img {
     display: none;
     width: 80px;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
 }
 
 .menu ul {
@@ -36,14 +32,6 @@ ul {
     font-size: .80rem;
 }
 
-.menu ul div {
-    display: none;
-}
-
-.responsive_image img {
-    display: none;
-}
-
 .menu ul .icon {
     display: flex;
     align-items: center;
@@ -51,61 +39,8 @@ ul {
     gap: .2rem;
 }
 
-@media only screen and (max-width:768px) {
-    #header {
-        background: none;
-    }
-
-    .header_padding {
-        padding: 0;
-    }
-
-    .column_responsive {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .responsive_image img {
-        display: block;
-    }
-
-    .logo_image img {
-        display: block;
-    }
-
-    .menu ul li:nth-child(1),
-    .menu ul li:nth-child(2) {
+@media (max-width:768px) {
+    .main {
         display: none;
-    }
-
-    .icon img {
-        display: none;
-    }
-
-    .menu ul .responsive_icon {
-        display: none;
-    }
-
-    .Contact {
-        display: none;
-    }
-
-    .LoginIcon img {
-        display: none;
-    }
-
-    .Languge {
-        display: none;
-    }
-
-    .menu ul div {
-        display: block;
-        font-size: 2.10rem;
-    }
-
-    .menu ul li {
-        font-size: 1rem;
-        font-weight: 400;
     }
 }
