@@ -7,7 +7,7 @@ const Navbar = () => {
       <nav id={styles.navbar}>
         <div className={styles.main}>
           <div
-            className={`${commonStyle.container_xl} ${commonStyle.container_xxl} ${commonStyle.container_lg} ${commonStyle.container_sm} ${commonStyle.container_xsm} ${commonStyle.container_xxsm} ${commonStyle.container_md}`}
+            className={`${commonStyle.container_xl} ${commonStyle.container_xxl} ${commonStyle.container_lg} ${commonStyle.container_sm} ${commonStyle.container_xsm} ${commonStyle.container_md}`}
           >
             <div className={styles.nav_padding}>
               <div className={styles.row}>
