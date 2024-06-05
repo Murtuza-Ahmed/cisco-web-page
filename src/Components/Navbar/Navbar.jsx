@@ -1,9 +1,13 @@
+import { useState } from "react";
 import styles from "./navbar.module.css";
 import commonStyle from "../../assets/Style/common.module.css";
 import logo from "../../assets/image/cutting-logo.png";
 import searchIcon from "../../assets/image/searchicon.png";
+import { FaBarsStaggered } from "react-icons/fa6";
+import { ImCross } from "react-icons/im";
 
 const Navbar = () => {
+  const [menu, setMenu] = useState(false);
   return (
     <>
       <nav id={styles.navbar}>
@@ -23,7 +27,13 @@ const Navbar = () => {
                       <li>
                         <img src={searchIcon} alt="Search_Icon" />
                       </li>
-                      <li></li>
+                      <li>
+                        {menu ? <FaBarsStaggered onClick={setMenu(!menu)}/> : <ImCross onClick={setMenu(!menu)}/>}
+                      </li>
+                      {/* <li>
+                        <FaBarsStaggered/>
+                        <ImCross/>
+                      </li> */}
                     </ul>
                   </div>
                 </div>
