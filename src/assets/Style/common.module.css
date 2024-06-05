@@ -1,6 +1,7 @@
 @media (min-width:1445px) {
     .container_xxl {
         width: 1500px;
+        margin: 0 auto;
     }
 }
 
