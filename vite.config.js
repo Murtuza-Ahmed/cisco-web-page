@@ -9,5 +9,5 @@ export default defineConfig({
       localsConvention: "camelCase"
     }
   },
-  base: "/cisco-web-page/",
+  base: "/vite-react-deploy/",
 })
