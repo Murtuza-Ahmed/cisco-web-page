@@ -8,6 +8,5 @@ export default defineConfig({
     modules: {
       localsConvention: "camelCase"
     }
-  },
-  base: "/cisco-web-page/",
+  }
 })
